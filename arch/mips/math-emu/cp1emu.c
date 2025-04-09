@@ -1194,7 +1194,6 @@ emul:
 			}
 			break;
 
-		case bc1eqz_op:
 		case bc1nez_op:
 			if (!cpu_has_mips_r6 || delay_slot(xcp))
 				return SIGILL;
