@@ -9,7 +9,7 @@ jobs:
            git config --global user.name "Tooya12"
            git config --global user.email "whatistooya12@gmail.com"
            git config --global color.ui false
-           git clone --depth=1 https://new.url/repository.git -b ${CIRCLE_BRANCH} .
+           git clone --depth=1 https://github.com/Tooya12/kernel_xiaomi_lavender-New.git -b ${CIRCLE_BRANCH} .
            bash .circleci/build.sh
 workflows:
   version: 2.1
